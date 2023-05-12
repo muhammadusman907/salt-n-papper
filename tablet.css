@@ -1,0 +1,149 @@
+/* section 1 nav-bar start */
+
+.parent1 {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.child1{
+     margin-left: 20%; 
+}
+.child2{
+     width :66% ; 
+   
+    display: none;
+}
+.child3 {
+margin-left: 45%;
+margin-bottom:10px ;
+}
+.extra-child {
+    display: block;
+   color: aliceblue;
+   width: 10%;
+    margin-left:15%;
+    margin-top:20px ;
+}
+.extra-child i{
+    color: aliceblue;
+   font-size: 2rem;
+ }
+.list a {
+
+    font-size: 0.7rem;
+}
+
+/* section 1 nav-bar compelete */
+/* slider imges heading  and paragraph strat */
+.main-parent h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 40px;
+}
+.slider-image img{
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: -4px;
+}
+.main-parent h6 {
+    font-family: "Josefin Sans";
+    font-weight: 50;
+    color: #fff;
+    font-size: 5.3rem;
+    text-align: center;
+    margin-top: 80px;
+    letter-spacing: 10px;
+}
+ 
+
+/* slider imges heading  and paragraph compelete */
+
+/* company brand city logos start */
+.parentbox1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxe-logos {
+    margin-top: 10px;
+    height:175px;
+    width: 290px;
+}
+
+#box1 img { 
+    height: auto;
+    width: 65%;
+}
+#box2 img {
+    height: auto;
+    width: 65%;
+}
+#box3 img {
+    height: auto; 
+     width: 65%;
+}
+/* company brand city logos compelete */
+
+
+/*  minar image  Headings  and  logos strat  */
+.minar-image {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.minar-image img {
+    margin-top: 8px;
+    height:auto;
+    width:40%;
+}
+
+/*  minar image  Headings  and  logos strat   compelete  */
+/*location,address box start */
+
+.parent-location-box {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+    /* justify-content: center; */
+
+}
+.location-box {
+    display: flex;
+    justify-content: center;
+    border: #fff solid;
+    height: 250px;
+    width: 85%;
+    margin-right: 1.5%;
+    background-color:#ffffff ;
+    border-radius: 5px;
+    margin-top:20px ;
+}
+
+/* footer start */
+.footer-parent{
+    display: flex;
+    flex-wrap: wrap; 
+}
+#footer-child1{
+    margin-top: 20px;
+    width: 92%;
+    height: auto;
+    
+    /* display: flex;
+    justify-content: center; */
+}
+#footer-child1 img{
+    width: 16%;
+    margin-left: 40%;
+
+}
+#footer-child1 p{
+    text-align: center;
+}
+
+/*location,address box compe*/

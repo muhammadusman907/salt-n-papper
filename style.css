@@ -1,0 +1,518 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(https://www.saltnpepper.com.pk/wp-content/uploads/2021/11/saltnpepper-village-home.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: brown; */
+    font-family:  "Josefin Sans";
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* section 1 nav-bar start */
+.color-box1{
+    background-color: #222222;
+    width: 100%;
+}
+.parent1 {
+    
+    display: flex;
+    justify-content: space-between;
+}
+.child1{
+    width: 10%;
+}
+.child1 img{
+    height: 50px;
+    margin-left: 20%;
+    margin-top:10px ;
+}
+.child2 ul{
+   display:flex;
+}
+.child2 {
+    margin-top: 35px;
+    margin-left: 4%;
+    /* border: solid; */
+    width: 44%;
+}
+
+.list{
+    margin-left:5% ;
+    list-style: none;
+    
+}
+.list a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.list a:hover {
+    color:#ED1C24;
+}
+#list1 a{
+   color: #ED1C24;
+}
+.child3{
+  margin-left: 22%;
+}
+.btn {
+    margin-top: 22px;
+    font-size: 14px;
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #ED1C24;
+    outline: none;
+    border: none;
+}
+/* section 1 nav-bar compelete */
+
+/* slider imges heading  and paragraph strat */
+.slider-image {
+    border-top: solid 1px #f00;
+    border-bottom: solid 1px #f00;
+
+}
+.slider-image img {
+    width: 100%;
+    height: 275px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+ #para-child1{
+    letter-spacing: 13px;
+    margin-top: 10px;
+     font-size: 18px;
+    color:#ffffff;
+    text-align: center;
+}
+
+
+.main-parent h3{
+    margin-top: 100px;
+ word-wrap: break-word;
+    font-size: 40px;
+    color:#ffffff;
+    text-align: center;
+}
+
+.main-parent h6 {
+    font-family: "Josefin Sans";
+    font-weight: 50;
+    color: #fff;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 80px;
+    letter-spacing: 10px;
+    word-wrap: break-word;
+}
+
+.text-logo {
+    display: flex;
+    justify-content: center;
+}
+.text-logo img {
+    width: 30%;
+}
+.main-parent p {
+    font-family: "Josefin Sans";
+    word-wrap: break-word;
+    color: #fff;
+    text-align: center;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size: 15px;
+
+}
+/* slider imges heading  and paragraph strat */
+
+/* company brand city logos start */
+.parentbox1 {
+    display: flex;
+    justify-content: center;
+
+
+}
+.boxe-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 25%;
+    border-radius: 7px;
+     margin-left:2% ;
+    background-color:#E2E3E3;
+}
+
+#box1 img {
+    height: auto;
+    width: 80%;
+}
+
+#box2 img {
+    height: auto;
+    width: 80%;
+
+}
+
+#box3 img {
+    height: auto; 
+     width: 80%;
+}
+/* company brand city logos compelete */
+
+/*  minar image  Headings  and  logos strat  */
+.color-box2 {
+    background-color: #222222;
+    border-top: #f00 solid 1px;
+    margin-top: 100px;
+}
+
+.minar-image {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.minar-image img {
+    margin-top: 8px;
+    height:auto;
+    width:20%;
+}
+.company-name-logo {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.company-name-logo img{
+    width: 30%;
+    height: auto;
+}
+
+.parent2 h3{
+    font-family: "Josefin Sans";
+    word-wrap: break-word;
+    text-align: center;
+    color: #ED1C24;
+    font-size: 3rem;
+    margin-top: 20px;
+}
+
+.parent2 p  {
+    margin-top: 10px;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+}
+/*  minar image,Headings and logos strat compelete */
+
+/*first location,address box start */
+.parent-location-box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 2px #818181;
+    flex-wrap: wrap;
+}
+.location-box {
+    display: flex;
+    justify-content: center;
+    border: #fff solid;
+    height: 250px;
+    width: 28%;
+    margin-right: 1.5%;
+    background-color:#ffffff ;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#location-image1{
+ 
+    background-image: url(https://www.saltnpepper.com.pk/wp-content/uploads/2021/11/Salt-n-Pepper-Restaurant-Bahawalpur-Franchise.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 100%;
+}
+.location-box i {
+    display: flex;
+    justify-content: center;
+
+    color: #f00;
+    display: block;
+    padding: 75px 0px 0px 48%;
+    font-size: 40px;
+}
+
+#location-image2{
+    background-image: url(https://www.saltnpepper.com.pk/wp-content/uploads/2021/11/Salt-n-Pepper-Restaurant-Faisalabad-Franchise.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 100%;
+}
+
+
+
+#location-image3{
+    background-image: url(https://www.saltnpepper.com.pk/wp-content/uploads/2021/11/Salt-n-Pepper-Restaurant-Islamabad-Franchise.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 100%;
+}
+
+/* heding address tel  */
+ .hedaddtel{
+    display: flex;
+    flex-direction: column;
+    
+}
+.hedaddtel h1 {
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.hedaddtel address {
+    text-align: center;
+    color: #fff;
+}
+
+.hedaddtel a {
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+/*first location,address box start */
+
+/* sececond location,address boxes start */
+.second-location-boxe1 h1 {
+    color: #f00;
+    text-align: center;
+    margin-top: 100px;
+    font-size:40px;
+    
+}
+.heading-bottom {
+    border-top:solid #818181;
+    width:20% ;
+    margin: auto;
+    margin-top: 20px;
+}
+/* sececond location,address boxes compelete */
+
+
+/* Third location,address boxes start */
+#location-image4{
+ 
+    background-image: url(https://www.saltnpepper.com.pk/wp-content/uploads/2022/06/02-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 100%;
+}
+
+#location-image5{
+ 
+    background-image: url(public2/Salt-n-Pepper-Express-Emporium-Mall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 100%;
+}
+#location-image6{
+ 
+    background-image: url(public2/Salt-n-Pepper-Express-Motorway-Bhera.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 100%;
+}
+#location-image7{
+    background-image: url(PUBLIC2/Salt-n-Pepper-Express-Packages-Mall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 100%;
+}
+#location-image8{
+ 
+    background-image: url(public2/Sargodha-Franchise.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 100%;
+}
+/* Third location,address boxes compelete */
+
+/* Fourth location,address boxes start */
+
+
+/* .single-parent-loction-box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+} */
+#location-box-single{
+    display: flex;
+    justify-content: center;
+    border: #fff solid;
+    height: 250px;
+    width: 90%;
+    margin-right: 1.5%;
+    background-color:#ffffff ;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#location-image9{
+ 
+    background-image: url(https://www.saltnpepper.com.pk/wp-content/uploads/2022/06/02-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 100%;
+}
+/* Fourth location,address boxes compelete */
+
+/* footer start */
+.footer-border{
+    border-top:solid #ED1C24;
+    margin-top: 10px;
+    width: 100%;
+}
+.footer-parent{
+    width: 99.5%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer-child{
+    margin-top: 20px;
+    width: 24%;
+    height: auto;
+}
+#footer-child1 img {
+    height: auto;
+    width: 50%;
+}
+#footer-child1 p{
+    margin-top:40px ;
+    color :#ffffff;
+}   
+#footer-child2 h3{
+    color: #ffffff;
+    border-bottom:solid #ED1C24;
+    width: 70%;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+#footer-child2 ul {
+    margin-top: 40px;
+   color: #ffffff;
+   list-style: none;
+}
+#footer-child2 ul li{
+    margin-top: 10px;
+}
+#footer-child2 ul li i{
+    text-align: center;
+    font-size: 10px;
+    border: solid #ED1C24;
+    border-radius: 50%;
+    width: 5%;
+    height: 12px;
+    background-color: #ED1C24;
+    margin-left: 2%;
+    
+}
+#footer-child3 h3{
+    color: #ffffff;
+    border-bottom:solid #ED1C24;
+    width: 70%;
+    padding-bottom:3px;
+}
+#footer-child3 h2{
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 2px;
+}
+#footer-child3 ul {
+    margin-top: 40px;
+   color: #ffffff;
+   list-style: none;
+}
+#footer-child3 ul li i{
+    text-align: center;
+    font-size: 10px;
+    border: solid #ED1C24;
+    border-radius: 50%;
+    width: 5%;
+    height: 12px;
+    background-color: #ED1C24;
+    margin-left: 2%;  
+}
+#footer-child3 ul li{
+    margin-top: 10px;
+}
+
+#footer-child4 h3{
+      color: #ffffff;
+      border-bottom:solid #ED1C24;
+      width: 60%;
+      padding-bottom:5px ;
+}
+.footer-icon-parent{
+    display: flex;
+    margin-top: 20px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    width: 12%;
+   height: 30px;
+   align-items: center; 
+    border-radius: 50%;
+     background-color:#ED1C24 ;
+     margin-left: 2%;
+}
+.footer-icon i{
+   color:#ffffff ;
+}
+.footer-logo1 img{
+    margin-top: 20px;
+    margin-left: 4%;
+    width: 42%;
+    height: auto;
+}
+.footer-logo2 img{
+    width: 50%;
+    height: auto;
+}
+/* footer compelete */

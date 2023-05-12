@@ -1,0 +1,67 @@
+/* section 1 nav-bar start */
+
+.parent1 {
+    display: flex;
+    justify-content: space-evenly;
+    
+    flex-direction: column;
+    align-items: center;
+}
+.child1{
+    margin-left: -30%; 
+}
+.extra-child {
+    margin-left:-1%;
+}
+.child3{
+    margin-left:-1% ;
+    margin-bottom:10px ;
+}
+/* section 1 nav-bar compelete */
+
+/* slider imges heading  and paragraph strat */
+.slider-image img{
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: -4px;
+}
+.main-parent h6 {
+    font-weight: 50;
+    color: #fff;
+    font-size: 3rem;
+}
+ 
+/* slider imges heading  and paragraph compelete */
+/* company brand city logos start */
+.boxe-logos {
+    margin-top: 10px;
+    height:140px;
+    width: 60%;
+} 
+
+#box1 img { 
+    height: auto;
+    width: 60%;
+}
+#box2 img {
+    height: auto;
+    width: 60%;
+}
+#box3 img {
+    height: auto; 
+     width: 60%;
+}                   
+/* company brand city logos compelete*/
+
+ /* footer start */
+
+ .footer-parent{
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+}
+.footer-child{
+    margin-left: 3%;
+}
+ /* footer compelete */
