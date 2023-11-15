@@ -4,12 +4,12 @@
 }
 
 body {
-    background-image: url(https://www.saltnpepper.com.pk/wp-content/uploads/2021/11/saltnpepper-village-home.jpg);
+    /* background-image: url(https://www.saltnpepper.com.pk/wp-content/uploads/2021/11/saltnpepper-village-home.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    /* background-color: brown; */
+    background-size: cover; */
+    /* background-color: #000; */
     font-family:  "Josefin Sans";
     width: 100%;
     overflow-x: hidden;
